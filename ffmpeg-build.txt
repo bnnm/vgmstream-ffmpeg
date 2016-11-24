@@ -1,0 +1,7 @@
+vgmstream-ffmpeg
+
+FFMpeg version: n3.2
+
+Config:
+  --enable-gpl --prefix=../vgmstream-ffmpeg --disable-static --enable-shared --disable-doc --disable-programs --disable-avdevice --disable-swresample --disable-swscale --disable-postproc --disable-avfilter --disable-network --disable-devices --disable-iconv --disable-schannel --disable-dxva2 --disable-nvenc --disable-debug --disable-everything --enable-decoder=aac,ac3,atrac3,atrac3p,mp3float,xma1,xma2 --enable-demuxer=aac,ac3,mp3,msf,ogg,oma,wav --enable-parser=ac3 --extra-cflags=-m32 --extra-ldflags=-static-libgcc
+
