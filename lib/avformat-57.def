@@ -5,6 +5,7 @@ EXPORTS
     av_codec_get_id
     av_codec_get_tag
     av_codec_get_tag2
+    av_convert_lang_to
     av_demuxer_open
     av_dump_format
     av_filename_number_test
@@ -87,6 +88,8 @@ EXPORTS
     avformat_flush
     avformat_free_context
     avformat_get_class
+    avformat_get_mov_audio_tags
+    avformat_get_mov_video_tags
     avformat_get_riff_audio_tags
     avformat_get_riff_video_tags
     avformat_init_output
