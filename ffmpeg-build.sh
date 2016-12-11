@@ -30,9 +30,9 @@ CONFIG+=" --disable-nvenc"
 CONFIG+=" --disable-debug"
 # formats
 CONFIG+=" --disable-everything"
-CONFIG+=" --enable-decoder=aac,ac3,atrac3,atrac3p,mp3float,wmalossless,wmapro,wmav1,wmav2,wmavoice,xma1,xma2"
+CONFIG+=" --enable-decoder=aac,ac3,adpcm_adx,adpcm_psx,adpcm_xa,atrac3,atrac3p,bink,binkaudio_dct,binkaudio_rdft,flac,mp3float,pcm_s16be,pcm_s16be_planar,pcm_s16le,pcm_s16le_planar,theora,wmalossless,wmapro,wmav1,wmav2,wmavoice,xma1,xma2"
 #CONFIG+=",dca,dsd_lsbf,dsd_lsbf_planar,dsd_msbf,dsd_msbf_planar,tak"
-CONFIG+=" --enable-demuxer=aac,ac3,asf,mov,mp3,msf,ogg,oma,wav,xwma"
+CONFIG+=" --enable-demuxer=aac,ac3,adx,asf,bink,flac,mov,mp3,msf,ogg,oma,wav,xmv,xwma"
 #CONFIG+=",dsf,dts,dtshd,tak"
 CONFIG+=" --enable-parser=ac3,mpegaudio"
 # GCC options (PIC shouldn't be needed on Windows)
