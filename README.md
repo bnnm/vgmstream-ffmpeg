@@ -15,3 +15,15 @@ In Windows you'll need to have in PATH:
 - yasm (http://yasm.tortall.net/)
 
 It may be possible to build FFMpeg with MSVC following the official docs (see https://www.ffmpeg.org/)
+
+
+In Windows you could use:
+```
+set PATH=C:\Program Files (x86)\Git\bin;%PATH%
+set PATH=C:\Program Files (x86)\mingw-w64\i686-5.4.0-win32-sjlj-rt_v5-rev0\mingw32\bin;%PATH%
+set PATH=C:\projects\yasm;%PATH%
+set PATH=C:\projects\gnuwin32\bin;%PATH%
+
+cd vgmstream-ffmpeg
+sh ffmpeg-build.sh 
+```

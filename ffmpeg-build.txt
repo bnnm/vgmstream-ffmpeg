@@ -1,8 +1,8 @@
 vgmstream-ffmpeg
 
 Compiler: gcc.exe (i686-win32-sjlj-rev0, Built by MinGW-W64 project) 5.4.0
-FFMpeg version: n3.2.2
+FFMpeg version: n3.3-dev-1270-g8addd56554
 
 Config:
-  --enable-gpl --prefix=../vgmstream-ffmpeg --disable-static --enable-shared --disable-doc --disable-programs --disable-avdevice --disable-swresample --disable-swscale --disable-postproc --disable-avfilter --disable-network --disable-devices --disable-iconv --disable-schannel --disable-dxva2 --disable-nvenc --disable-debug --disable-everything --enable-decoder=aac,ac3,adpcm_adx,adpcm_psx,adpcm_xa,atrac3,atrac3p,bink,binkaudio_dct,binkaudio_rdft,flac,mp3float,pcm_s16be,pcm_s16be_planar,pcm_s16le,pcm_s16le_planar,theora,wmalossless,wmapro,wmav1,wmav2,wmavoice,xma1,xma2 --enable-demuxer=aac,ac3,adx,asf,bink,flac,mov,mp3,msf,ogg,oma,wav,xmv,xwma --enable-parser=ac3,mpegaudio --extra-ldflags=-static-libgcc
+  --enable-gpl --prefix=../vgmstream-ffmpeg --disable-static --enable-shared --disable-doc --disable-programs --disable-avdevice --disable-swresample --disable-swscale --disable-postproc --disable-avfilter --disable-network --disable-devices --disable-iconv --disable-schannel --disable-dxva2 --disable-nvenc --disable-debug --disable-everything --enable-decoder=aac,ac3,adpcm_adx,adpcm_psx,adpcm_xa,atrac3,atrac3p,bink,binkaudio_dct,binkaudio_rdft,flac,mp3float,pcm_s16be,pcm_s16be_planar,pcm_s16le,pcm_s16le_planar,theora,wmalossless,wmapro,wmav1,wmav2,wmavoice,xma1,xma2 --enable-demuxer=aac,ac3,adx,asf,bink,flac,mov,mp3,msf,ogg,oma,wav,xmv,xwma --enable-parser=ac3,mpegaudio,xma --extra-ldflags=-static-libgcc --build-suffix=-vgmstream
 
